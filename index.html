@@ -2,30 +2,43 @@
 <html>
 <head>
   <title>Webpage</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Great+Vibes|Josefin+Sans">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
+  <!--  HEADER -->
+  <header class="header">
     <img class="avatar" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/428389/profile/profile-80_2.jpg" alt="Jean Silva">
-    <nav class="menu">
-      <ul>
-        <li><a href="#">about</a></li>
-        <li><a href="#">work</a></li>
-        <li><a href="#">contact</a></li>
+    <nav class="nav">
+      <ul class="navigation">
+        <li class="item"><a href="#">about</a></li>
+        <li class="item"><a href="#">work</a></li>
+        <li class="item"><a href="#">contact</a></li>
       </ul>
     </nav>
   </header>
-  <main role="main">
-    <section class="greeting">
-      <h1>I'm Jean,</h1>
-      <h1>a front-end developer</h1>
-      <img src="http://www.syntaxxx.com/wp-content/uploads/2014/01/html5-logo-300.png" alt="HTML5">
-      <img src="http://www.syntaxxx.com/wp-content/uploads/2014/01/intro-to-css3-logo-300.png" alt="CSS3">
-      <img src="https://frontendmasters.com/assets/es6-logo-300x300.png" alt="ES6">
-      <img src="https://madewithreactjs.files.wordpress.com/2015/08/logo.png?w=300" alt="REACT">
-      <img src="http://event.savvyera.com/wp-content/uploads/2015/04/pol1.jpg" alt="POLYMER">
-      <img src="http://lh3.googleusercontent.com/LnNWYVgmH169x78ZihxL6iM-jDX_U9EAzIstVvoWL3NMqqdyu7vTWW80JyEKkmtXCWE=w300" alt="NODEJS">
+
+  <!-- MAIN -->
+  <main role="main" class="main">
+    <section class="apresentation">
+      <article class="greetings">
+        <h1>I'm Jean,</h1>
+        <h1>A FRONT-END DEVELOPER</h1>
+      </article>
+      <article class="technologies">
+        <img class="item" src="http://www.syntaxxx.com/wp-content/uploads/2014/01/html5-logo-300.png" alt="HTML5">
+        <img class="item" src="http://www.syntaxxx.com/wp-content/uploads/2014/01/intro-to-css3-logo-300.png" alt="CSS3">
+        <img class="item" src="https://frontendmasters.com/assets/es6-logo-300x300.png" alt="ES6">
+        <img class="item" src="https://madewithreactjs.files.wordpress.com/2015/08/logo.png?w=300" alt="REACT">
+        <img class="item" src="http://event.savvyera.com/wp-content/uploads/2015/04/pol1.jpg" alt="POLYMER">
+        <img class="item" src="http://lh3.googleusercontent.com/LnNWYVgmH169x78ZihxL6iM-jDX_U9EAzIstVvoWL3NMqqdyu7vTWW80JyEKkmtXCWE=w300" alt="NODEJS">
+      </article>
     </section>
+    <!--
+    <section class="technologies">
+
+    </section>
+
     <section class="about">
       <h1>Hi,</h1>
       <p>
@@ -48,13 +61,15 @@
         Feel free to get in touch, i hope to work together soon.
       </p>
       <button>SEND ME MESSAGE</button>
-    </section>
+    </section> -->
   </main>
+  <!--
   <footer>
     <p>
       © 2016 Jean Silva - I ❤ code
     </p>
   </footer>
+-->
   <script src="js/app.js"></script>
 </body>
 </html>
